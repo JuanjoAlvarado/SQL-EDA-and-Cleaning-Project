@@ -78,7 +78,7 @@ LIMIT 100;
 |January 16, 2015	|
 
 
-First change the initial format of 'month day, year' to 'month.day.year' (an easy way to split the string after but is not the only way). Use the 'UPDATE' statement to 'SET' the "SaleDate" column to be equal to a 'REPLACE' function. Replace the spaces (" ") with "." and the coma (",")
+First change the initial format of 'month day, year' to 'month.day.year' (an easy way to split the string after but is not the only way). Use the 'UPDATE' statement to 'SET' the "SaleDate" column to be equal to a 'REPLACE' function. Replace the spaces (" ") with (".") and the coma (",")
 with nothing (""). If there is any character at the start or end of the strign you can replace it with nothing also. 
 
 ```SQL
@@ -240,7 +240,7 @@ WHERE
 ;
 ```
 
-Result Set
+**Result Set**
 |propertyaddress	|
 |-------------------|
 |	No data			|
@@ -399,7 +399,7 @@ We want to DELETE the UniqueID where the row number is greater than one.
 		WHERE
 			row_num > 1
 ```
-Check the full query here
+[Check the full query here](/SQL%20Queries/Cleaning/c5_other_queries.sql)
 
 
 ### Drop Not Useful Columns
